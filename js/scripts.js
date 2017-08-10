@@ -71,13 +71,20 @@ function getUniqueId(topic,quest)
         case 'binarysearch':
             switch(quest)
             {
-
+                case 'Matrix Median': return 'f1fdb1c16d510077d95ed7b8dccb92cf';
+                case 'Square Root of Integer': return 'e00de83baecc9a22da0316fabbf45280';
+                case 'Allocate Books': return '5360c0cef9831bc8bb784a33750626df';
+                case 'Matrix Search': return 'fc162b07ac62b7689883e20e1d09747d';
+                case 'Search for a Range': return '7af7f9282773dc2f5156b4a40edbe811';
+                case 'Sorted Insert Position': return '96558708a5b0f0200e09016946cda8a5';
+                case 'Implement Power Function': return 'fbb7a57d4bc333f585c76d91172750be';
+                case 'Rotated Sorted Array Search': return '6952e7a2de9f091aeeb2f03b950f4921';
             }
         break;
         case 'strings':
             switch(quest)
             {
-
+                
             }
         break;
         case 'bitmanipulation':
@@ -175,7 +182,9 @@ function configureDropDownLists(ddl1,ddl2)
                 'Sorted Permutation Rank','Largest Coprime Divisor','Sorted Permutation Rank with Repeats',
                 'Rearrange Array','Grid Unique Paths'];
     
-    var binarysearch = ['',];
+    var binarysearch = ['','Matrix Median','Square Root of Integer','Allocate Books','Matrix Search',
+                    'Search for a Range','Sorted Insert Position','Implement Power Function',
+                    'Rotated Sorted Array Search'];
     var strings = ['',];
     var bitmanipulation = ['',];
     var twopointers = ['',];
