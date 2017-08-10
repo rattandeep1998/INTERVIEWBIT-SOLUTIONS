@@ -50,7 +50,22 @@ function getUniqueId(topic,quest)
         case 'math':
             switch(quest)
             {
-
+                case 'Prime Sum': return 'b5ad5c9aaab54b6f082b8e545c876cbd';
+                case 'Sum of pairwise Hamming Distance': return '997be287d9c4653bf69cd2f3926ef437';
+                case 'FizzBuzz': return 'b036fa45b59e174cf50c829a21b7f4cc';
+                case 'Power Of Two Integers': return '066554004a132b8bad429a14f0f47454';
+                case 'Excel Column Number': return 'c2afacac223840a73c30ee77579ff3fd';
+                case 'Excel Column Title': return '7932ccb7ad1b5e6b18db46aaea9f3002';
+                case 'Points inside Rectangle': return '7b6c87c373b26ae140b61aab69b89181';
+                case 'Palindrome Integer': return '276720ff38f588cc650f89c71ad84655';
+                case 'Reverse integer': return 'f63d03116ec5ae4bd91bfac97ac1c336';
+                case 'Greatest Common Divisor': return 'b733b64ab683066941458f373437c7f4';
+                case 'Trailing Zeros in Factorial': return '91a4f15d30a4c8a820883cb39434a242';
+                case 'Sorted Permutation Rank': return '99e7e4cef7f3c343acd54cd24260a861';
+                case 'Largest Coprime Divisor': return '4480108651cacc9fac06ff288cb3773c';
+                case 'Sorted Permutation Rank with Repeats': return '63f7939e9591ff0643daefd73e160551';
+                case 'Rearrange Array': return '874a985d4a6bd48c34dcc55bc1f7e650';
+                case 'Grid Unique Paths': return '884d9ccfe9cef27a4ff30f82c6ce9fab';
             }
         break;
         case 'binarysearch':
@@ -153,7 +168,13 @@ function configureDropDownLists(ddl1,ddl2)
                 'Max Distance', 'Maximum Unsorted Subarray','Rotate Matrix', 'Next Permutation',
                 'Find Permutation', 'Merge Intervals','Set Matrix Zeros','First Missing Integer',
                 'Repeat and Missing Number Array'];
-    var math = ['',];
+
+    var math = ['','Prime Sum','Sum of pairwise Hamming Distance','FizzBuzz','Power Of Two Integers',
+                'Excel Column Number','Excel Column Title','Points inside Rectangle','Palindrome Integer',
+                'Reverse integer','Greatest Common Divisor','Trailing Zeros in Factorial',
+                'Sorted Permutation Rank','Largest Coprime Divisor','Sorted Permutation Rank with Repeats',
+                'Rearrange Array','Grid Unique Paths'];
+    
     var binarysearch = ['',];
     var strings = ['',];
     var bitmanipulation = ['',];
