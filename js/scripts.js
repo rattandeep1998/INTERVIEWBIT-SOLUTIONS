@@ -84,13 +84,31 @@ function getUniqueId(topic,quest)
         case 'strings':
             switch(quest)
             {
-                
+                case 'Palindrome String': return '9d62a1e8579993469fd842598adc4d67';
+                case 'Longest Common Prefix': return '0b0ebac391d7a418e1e793e6946f9fff';
+                case 'Count And Say': return 'c7b5918f477aa05394c6783c722e0198';
+                case 'Minimum Characters String Palindromic': return '648168af3df571ea36de884896ca0f47';
+                case 'Longest Palindromic Substring': return 'dfb538ce84eded280e6db5a2c50c3d0e';
+                case 'Implement StrStr': return '8b3c42df4707d89ae9f8e519acd25821';
+                case 'Compare Version Numbers': return '663be492445535a13f01a74896ea91ff';
+                case 'Atoi': return '4d980f1af7290972302b151cc736345d';
+                case 'Valid Number': return '22adb50010d1b0884f2b1809cb438f42';
+                case 'Valid Ip Addresses': return '7d368fd85bf522445f8b34d905c73aae';
+                case 'Length of Last Word': return '61889d86dcafebff12ec65c31adc17ee';
+                case 'Reverse the String': return '5aef56ff127ea90091bc7aa85298e9a8';
+                case 'Roman To Integer': return 'e2fca66143aa1ffbe1662c8aad2748ff';
+                case 'Integer To Roman': return '1e647e977557adf862fd0d61533d33e2';
+                case 'Add Binary Strings': return 'de671f3fb7068c2439d8551b6eb119cc';
+                case 'Power of 2': return '2fa769b155160f1f70e789eac633af52';
+                case 'Multiply Strings': return '4f26a6cad6a75532e8fa4d34249b19f9';
+                case 'Justified Text': return 'eb1f7899f58170f27ab4ca6aa102529a';
+                case 'Zigzag String': return '4fd79833756951596e7925c9fdf48e51';
             }
         break;
         case 'bitmanipulation':
             switch(quest)
             {
-
+                
             }
         break;
         case 'twopointers':
@@ -185,7 +203,13 @@ function configureDropDownLists(ddl1,ddl2)
     var binarysearch = ['','Matrix Median','Square Root of Integer','Allocate Books','Matrix Search',
                     'Search for a Range','Sorted Insert Position','Implement Power Function',
                     'Rotated Sorted Array Search'];
-    var strings = ['',];
+
+    var strings = ['','Palindrome String','Longest Common Prefix','Count And Say','Minimum Characters String Palindromic',
+                'Longest Palindromic Substring','Implement StrStr','Compare Version Numbers',
+                'Atoi','Valid Number','Valid Ip Addresses','Length of Last Word','Reverse the String',
+                'Roman To Integer','Integer To Roman','Add Binary Strings','Power of 2','Multiply Strings',
+                'Justified Text','Zigzag String'];
+
     var bitmanipulation = ['',];
     var twopointers = ['',];
     var linkedlists = ['',];
