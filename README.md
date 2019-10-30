@@ -1,3 +1,3 @@
 # InterviewBit SOLUTIONS
 
-### Solution of all problems on [www.interviewbit.com](https://www.interviewbit.com/)
+### Solution of all problems on [InterviewBit](https://www.interviewbit.com/)
